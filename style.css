@@ -7,6 +7,24 @@ body {
   background-color: #181818;
 }
 
+button:hover {
+  background-color: wheat;
+  color: darkgoldenrod;
+}
+
+button {
+  cursor: pointer;
+  background-color: darkgoldenrod;
+  color: wheat;
+  padding: 10px;
+  font-family: 'Nanum Brush Script', cursive;
+  font-size: 35px;
+  border: 2px solid darkgoldenrod;
+  border-radius: 10%;
+  text-align: center;
+  font-weight: bold;
+}
+
 .header {
   color: orange;
   font-family: 'Sedgwick Ave Display', cursive;
@@ -24,11 +42,16 @@ body {
 }
 
 .options {
+  display: flex;
   flex: 1;
+  flex-direction: column;
+  margin-left: 200px;
+  margin-right: 200px;
+  gap: 20px;
 }
 
 .grid-container {
-  margin-right: 40px;
+  margin-right: 200px;
   margin-bottom: 40px;
   height: fit-content;
   width: fit-content;
@@ -39,8 +62,8 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  width: 600px;
-  height: 600px;
+  width: 400px;
+  height: 400px;
   box-sizing: border-box;
 }
 .block {
@@ -49,6 +72,7 @@ body {
   display: inline-block;
   border: 1px solid rgb(156 156 156);
 }
+
 .row {
   display: flex;
   flex: 1;
