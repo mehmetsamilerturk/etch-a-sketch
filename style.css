@@ -1,3 +1,41 @@
+body {
+  color: white;
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #181818;
+}
+
+.header {
+  color: orange;
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 120px;
+  width: 100vw;
+}
+
+.main {
+  display: flex;
+}
+
+.options {
+  flex: 1;
+}
+
+.grid-container {
+  margin-right: 40px;
+  margin-bottom: 40px;
+  height: fit-content;
+  width: fit-content;
+  border: 20px solid #FFD580;
+  box-sizing: border-box;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -6,6 +44,7 @@
   box-sizing: border-box;
 }
 .block {
+  background-color: whitesmoke;
   flex: 1;
   display: inline-block;
   border: 1px solid rgb(156 156 156);
