@@ -3,7 +3,6 @@ const blocks = document.querySelectorAll('.block');
 const newGrid = document.querySelector('.newGrid');
 const reset = document.querySelector('.reset');
 const toggleClick = document.querySelector('.toggleClick');
-const toggleHover = document.querySelector('.toggleHover');
 
 // Create a grid of square divs
 function createGrid(numGrid, event) {
